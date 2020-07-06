@@ -3,6 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="./styles.css" rel="stylesheet" type="text/css" />
   <title>Rock Paper Scissors</title>
 </head>
 <body>
@@ -11,24 +12,26 @@
       <a href="#">Login</a>
     </header>
     <section class="gameboard">
-        <div class="js-opponents-score opponents-score">score: 0</div>
+        <div class="js-opponent-score opponents-score">score: 0</div>
         <div class="guesses">
           <div class="opponent-guess">
             <h3>Opponent Guess</h3>
-            <span class="js-opponent-guess opponent-guess">Rock</span>
+            <span class="js-opponent-guess opponent-guess">foo</span>
           </div>
           <div class="player-guess">
             <h3>Your Guess</h3>
-            <span class="js-player-guess player-guess">Paper</span>
+            <span class="js-player-guess player-guess">bar</span>
           </div>
         </div>
         <div class="js-player-score player-score">score: 0</div>
+        <section class="text-output js-text-output"></section>
         <section class="js-player-inputs player-inputs">
-          <button class="js-rock-btn rock-btn">Rock</button>
-          <button class="js-paper-btn paper-btn">Paper</button>
-          <button class="js-scissors-btn scissors-btn">Scissors</button>
+          <button class="js-rock-btn rock-btn" data-weapon="rock">Rock</button>
+          <button class="js-paper-btn paper-btn" data-weapon="paper">Paper</button>
+          <button class="js-scissors-btn scissors-btn" data-weapon="scissors">Scissors</button>
         </section>
     </section>
   </div> 
+  <script src="index.js"></script>
 </body>
 </html>
