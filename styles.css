@@ -7,3 +7,15 @@ body {
   margin: 0;
   padding: 0;
 }
+
+.guesses {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+.player-inputs {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+}
