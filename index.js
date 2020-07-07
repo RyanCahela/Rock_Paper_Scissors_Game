@@ -111,8 +111,8 @@
   }
 
   function updateScores(opponentScore, playerScore) {
-    elOpponentScore.textContent = `Score: ${opponentScore}`;
-    elPlayerScore.textContent = `Score: ${playerScore}`;
+    elOpponentScore.textContent = `Opponent Score: ${opponentScore}`;
+    elPlayerScore.textContent = `Player Score: ${playerScore}`;
   }
 
   function updateGuesses(opponentGuess, playerGuess) {

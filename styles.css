@@ -8,14 +8,35 @@ body {
   padding: 0;
 }
 
+.container {
+  width: 80%;
+  margin: 0 auto;
+}
+
 .guesses {
   display: flex;
   align-items: center;
   justify-content: space-around;
+
+}
+
+.opponent-guess,
+.player-guess {
+  border: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  padding: 10px;
 }
 
 .player-inputs {
   display: flex;
   justify-content: center;
   margin-top: 50px;
+}
+
+.text-output {
+  border: 1px solid black;
+  padding: 10px;
 }
